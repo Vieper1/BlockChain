@@ -1,0 +1,12 @@
+<Template name="Login">
+
+      <h4><small> </small></h4>
+      <hr>
+      <h2>Select your Ethereum Address</h2>
+      <select>
+          <option>{{defaultAccount}}</option>
+      </select>
+      <button name="submit" class="btn btn-success" >Login to the system </button>
+      <p>Your Balance is {{defaultAccountBalance}} {{TemplateVar.get "defaultAccountBalance" }} ethers </p>
+
+</Template>
